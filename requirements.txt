@@ -1,0 +1,9 @@
+streamlit
+cv2
+ultralytics 
+YOLO
+time
+numpy
+plotly.graph_objects
+os
+pandas
