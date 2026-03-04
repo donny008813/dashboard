@@ -5,8 +5,9 @@ YOLO
 TIME-python
 numpy
 plotly
-os
+os-sys
 pandas
+
 
 
 
