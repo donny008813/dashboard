@@ -4,8 +4,9 @@ ultralytics
 YOLO
 TIME-python
 numpy
-plotly.graph_objects
+plotly
 os
 pandas
+
 
 
