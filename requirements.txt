@@ -1,5 +1,5 @@
 streamlit
-cv2
+opencv-python
 ultralytics 
 YOLO
 time
@@ -7,3 +7,4 @@ numpy
 plotly.graph_objects
 os
 pandas
+
