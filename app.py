@@ -8,8 +8,8 @@ import os
 import pandas as pd
 
 # ---------------- SETTINGS ----------------
-VIDEO_PATH = "C:/Users/donny/Documents/Stage/Foto/Video/VID20260206101505.mp4"
-MODEL_PATH = "C:/Users/donny/Documents/Stage/Programmas/runs/detect/train7/weights/best.pt"
+VIDEO_PATH = "assets/VID20260206101505.mp4"
+MODEL_PATH = "assets/train7/weights/best.pt"
 
 # Counting zone (ROI)
 BOX_X1 = 484
@@ -477,5 +477,6 @@ fig3.add_hline(
     line_dash="dash",
     line_color="black"
 )
+
 
 st.plotly_chart(fig3)
