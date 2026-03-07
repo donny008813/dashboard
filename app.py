@@ -11,7 +11,7 @@ import pandas as pd
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-VIDEO_PATH = os.path.join(BASE_DIR, "assets", "VID20260206101505.mp4")
+VIDEO_PATH = os.path.join(BASE_DIR, "assets", "VID.mp4")
 MODEL_PATH = os.path.join(BASE_DIR, "assets", "train7", "weights", "best.pt")
 
 BOX_X1 = 484
@@ -386,4 +386,5 @@ fig3.update_layout(
 )
 
 st.plotly_chart(fig3)
+
 
