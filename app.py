@@ -31,6 +31,7 @@ DISTANCE_INTERVAL = 3.75
 st.set_page_config(layout="wide")
 st.title("Pineapple Production Monitor")
 
+st.video(VIDEO_PATH)
 # ---------------- FILE CHECKS ----------------
 
 if not os.path.exists(VIDEO_PATH):
@@ -385,3 +386,4 @@ fig3.update_layout(
 )
 
 st.plotly_chart(fig3)
+
