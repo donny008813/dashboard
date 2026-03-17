@@ -47,6 +47,7 @@ SUPPORTED_EXTS = {".jpg", ".jpeg", ".png", ".bmp", ".tiff", ".webp"}
 # ─────────────────────────────────────────
 st.set_page_config(page_title="Pineapple Monitor", page_icon="🍍", layout="wide")
 
+
 # ─────────────────────────────────────────
 # MODEL LOADING
 # ─────────────────────────────────────────
@@ -325,11 +326,11 @@ def add_derived(df: pd.DataFrame) -> pd.DataFrame:
 # PLOTLY THEME
 # ─────────────────────────────────────────
 BASE = dict(
-    paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="#0d1117",
-    font=dict(family="Share Tech Mono", color="#6b8099", size=11),
+    paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="#ffffff",
+    font=dict(family="Share Tech Mono", color="#19191a", size=11),
     title_font=dict(family="Share Tech Mono", color="#00e5ff", size=13),
-    xaxis=dict(gridcolor="#1e2a3a", linecolor="#1e2a3a"),
-    yaxis=dict(gridcolor="#1e2a3a", linecolor="#1e2a3a"),
+    xaxis=dict(gridcolor="#ffffff", linecolor="#000000"),
+    yaxis=dict(gridcolor="#ffffff", linecolor="#000000"),
     margin=dict(l=40,r=20,t=40,b=40),
     legend=dict(bgcolor="rgba(0,0,0,0)", bordercolor="#1e2a3a"),
 )
@@ -437,8 +438,8 @@ def graph_delta_ts(df):
     for s in [2*sy, -2*sy]:
         fig.add_hline(y=s, line_dash="dash", line_color="#334455", row=2, col=1)
     fig.update_layout(**{**BASE,"title":"Kern Offset over Tijd (±2σ)","height":420,"showlegend":True})
-    fig.update_xaxes(gridcolor="#1e2a3a", linecolor="#1e2a3a")
-    fig.update_yaxes(gridcolor="#1e2a3a", linecolor="#1e2a3a")
+    fig.update_xaxes(gridcolor="#ffffff", linecolor="#000000")
+    fig.update_yaxes(gridcolor="#ffffff", linecolor="#000000")
     return fig
 
 def graph_confidence(df):
