@@ -10,13 +10,6 @@ from plotly.subplots import make_subplots
 from pathlib import Path
 import math
 
-# ---------------- SETTINGS ----------------
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
-VIDEO_PATH = os.path.join(BASE_DIR, "assets", "fixed_video.mp4")
-MODEL_PATH = os.path.join(BASE_DIR, "assets", "train7", "weights", "best.pt")
-
 """
 Pineapple Inference Dashboard — Folder Mode
 ============================================
@@ -28,7 +21,8 @@ same dashboard layout as the DB version — no database needed.
 # ─────────────────────────────────────────
 # CONFIG — edit these
 # ─────────────────────────────────────────
-DEFAULT_IMAGE_FOLDER = r"C:\Users\donny\Documents\Stage\Foto\Ananas, Core, plateau"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DEFAULT_IMAGE_FOLDER = os.path.join(BASE_DIR, "assets", "foto")
 DEFAULT_MODEL_PATH   = os.path.join(BASE_DIR, "assets", "train7", "weights", "best.pt")
 
 CONF_THRESHOLD  = 0.5
