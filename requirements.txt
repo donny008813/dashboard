@@ -7,7 +7,7 @@ numpy
 plotly
 os-sys
 pandas
-math
+python-math
 pathlib
 path
 
