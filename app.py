@@ -47,33 +47,6 @@ SUPPORTED_EXTS = {".jpg", ".jpeg", ".png", ".bmp", ".tiff", ".webp"}
 # ─────────────────────────────────────────
 st.set_page_config(page_title="Pineapple Monitor", page_icon="🍍", layout="wide")
 
-st.markdown("""
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow:wght@300;400;600&display=swap');
-html, body, [class*="css"] { font-family:'Barlow',sans-serif; background:#080b0f; color:#d0dde8; }
-.stApp { background:#080b0f; }
-h1,h2,h3 { font-family:'Share Tech Mono',monospace !important; color:#00e5ff !important; letter-spacing:2px; }
-[data-testid="metric-container"] {
-    background:#0d1117; border:1px solid #1e2a3a;
-    border-left:3px solid #00e5ff; border-radius:4px; padding:12px 16px;
-}
-[data-testid="metric-container"] label {
-    color:#6b8099 !important; font-family:'Share Tech Mono',monospace !important; font-size:11px !important;
-}
-[data-testid="metric-container"] [data-testid="stMetricValue"] {
-    color:#00e5ff !important; font-family:'Share Tech Mono',monospace !important;
-}
-.img-label { font-family:'Share Tech Mono',monospace; font-size:11px; color:#6b8099; letter-spacing:2px; text-align:center; margin-bottom:4px; }
-.section-title { font-family:'Share Tech Mono',monospace; font-size:13px; color:#00e5ff; letter-spacing:2px; border-bottom:1px solid #1e2a3a; padding-bottom:6px; margin:16px 0 8px 0; }
-.status-bar { background:#0d1117; border:1px solid #1e2a3a; border-left:3px solid #00e5ff; border-radius:4px; padding:8px 14px; font-family:'Share Tech Mono',monospace; font-size:12px; margin-bottom:16px; }
-.live  { color:#39ff14; }
-.idle  { color:#ffa502; }
-.warn  { color:#ff4757; }
-section[data-testid="stSidebar"] { background:#0d1117 !important; border-right:1px solid #1e2a3a; }
-hr { border-color:#1e2a3a !important; }
-</style>
-""", unsafe_allow_html=True)
-
 # ─────────────────────────────────────────
 # MODEL LOADING
 # ─────────────────────────────────────────
