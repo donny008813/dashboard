@@ -23,7 +23,7 @@ same dashboard layout as the DB version — no database needed.
 # ─────────────────────────────────────────
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DEFAULT_IMAGE_FOLDER = os.path.join(BASE_DIR, "assets", "foto")
-DEFAULT_MODEL_PATH   = os.path.join(BASE_DIR, "assets", "train7", "weights", "best.pt")
+DEFAULT_MODEL_PATH   = os.path.join(BASE_DIR, "assets", "best_yolo11n_1024.pt")
 
 CONF_THRESHOLD  = 0.5
 POLL_INTERVAL   = 3.75   # seconds between images in loop mode
