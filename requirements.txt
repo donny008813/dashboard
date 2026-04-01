@@ -1,5 +1,4 @@
 streamlit
-opencv-python-headless
 ultralytics 
 YOLO
 TIME-python
@@ -10,6 +9,7 @@ pandas
 python-math
 pathlib
 path
+opencv-python-headless
 
 
 
