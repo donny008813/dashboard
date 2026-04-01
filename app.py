@@ -1,5 +1,4 @@
 import streamlit as st
-import cv2
 from ultralytics import YOLO
 import time
 import numpy as np
@@ -9,6 +8,7 @@ import pandas as pd
 from plotly.subplots import make_subplots
 from pathlib import Path
 import math
+import cv2
 
 """
 Pineapple Inference Dashboard — Folder Mode
