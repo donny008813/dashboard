@@ -1,21 +1,8 @@
 streamlit
 ultralytics
---extra-index-url https://download.pytorch.org/whl/cpu
-YOLO
-TIME-python
 numpy
 plotly
-os-sys
 pandas
-python-math
-pathlib
-path
 opencv-python-headless==4.9.0.80
 
-
-
-
-
-
-
-
+--extra-index-url https://download.pytorch.org/whl/cpu
