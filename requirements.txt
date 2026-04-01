@@ -11,7 +11,7 @@ python-math
 pathlib
 path
 opencv-python-headless==4.9.0.80
-opencv-python==0.0.0
+
 
 
 
